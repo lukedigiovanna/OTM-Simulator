@@ -1,0 +1,17 @@
+3
+q0 accept
+q1 reject
+qdead reject
+12
+q0 a _ q1 a R
+q0 b _ qdead b R
+q1 a a qdead a R
+q1 b a q0 b R 
+q1 a _ q1 a N
+q1 b _ adead b R
+qdead a a qdead a R
+qdead b a qdead b R
+qdead a b qdead a R
+qdead b b qdead b R
+qdead a _ qdead a R
+qdead b _ qdead b R
