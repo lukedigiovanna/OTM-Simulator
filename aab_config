@@ -15,3 +15,4 @@ qdead a b qdead a R
 qdead b b qdead b R
 qdead a _ qdead a R
 qdead b _ qdead b R
+q0
